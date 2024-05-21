@@ -1,12 +1,9 @@
-let temperature = 29;
+let shippingAmmout = 110;
+if (shippingAmmout > 100) {
+  console.log("Free shipping");
+} else {
+  console.log("$10 shipping fee");
+}
 
-if (temperature >=20 && temperature <=25)
-    {
-        console.log ("Comfortable Temperature");
-    }
-    else {
-        console.log ("Stay inside.")
-    }
-
-let comfort = temperature >=20 && temperature<=25 ? "Confortable" : "Stay Inside" ;
-console.log (comfort);   
+let fee = shippingAmmout > 100 ? "Free Shipping" : "$10 Shipping Fee";
+console.log(fee);
