@@ -1,13 +1,12 @@
-let score = 65;
-if (score >= 65 )
+let temperature = 29;
+
+if (temperature >=20 && temperature <=25)
     {
-        console.log ("Pass");
+        console.log ("Comfortable Temperature");
     }
-   else 
-   {
-    console.log ("Fail");
-   } 
+    else {
+        console.log ("Stay inside.")
+    }
 
-let result = score >=65 ? "Pass" : "Fail" ;
-console.log (result);
-
+let comfort = temperature >=20 && temperature<=25 ? "Confortable" : "Stay Inside" ;
+console.log (comfort);   
