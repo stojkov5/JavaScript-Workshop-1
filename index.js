@@ -1,19 +1,19 @@
-let dayOffWeek = "Tuesday";
+let weather= "sunny";
 
-if (dayOffWeek === "Monday"){
-console.log ("Start of the work week!");
-}
-else if (dayOffWeek === "Wednesday")
+if(weather === "sunny")
     {
-        console.log ("Midweek!");
-
+        console.log ("Wear sunglasses!");
     }
-else if (dayOffWeek === "Friday")
+else if (weather === "rainy")
     {
-        console.log ("Almost weekend!");
+        console.log ("Take an umbrella!");
+    }    
+else if (weather === "snowy")
+    {
+        console.log ("Wear a warm coat!");
 
     }   
-    else 
-    {
-        console.log ("Just another day");
-    } 
+    
+    else {
+        console.log ("Check the weather forecast for more details.");
+    }
