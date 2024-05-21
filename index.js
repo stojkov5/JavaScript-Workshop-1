@@ -1,19 +1,10 @@
-let weather= "sunny";
+let username = "user123";
+let password = "password123";
 
-if(weather === "sunny")
-    {
-        console.log ("Wear sunglasses!");
-    }
-else if (weather === "rainy")
-    {
-        console.log ("Take an umbrella!");
-    }    
-else if (weather === "snowy")
-    {
-        console.log ("Wear a warm coat!");
-
-    }   
-    
-    else {
-        console.log ("Check the weather forecast for more details.");
-    }
+if (username === "admin" && password === "adminpass") {
+  console.log("Welcome, admin!");
+} else if (username === "user123" && password === "password123") {
+  console.log("Welcome, user123!");
+} else {
+  console.log("Invalid username or password.");
+}
